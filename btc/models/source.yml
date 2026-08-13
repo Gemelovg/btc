@@ -6,12 +6,11 @@ sources:
     schema: btc_schema
     tables:
       - name: btc
-        freshness:
-        warn_after:
-          coun: 1
-          period: hour
-        error_after:
-          count: 3
-          period: hour
-
-        loaded_at_field: BLOCK_TIMESTAP
+    #     freshness:
+    #     warn_after:
+    #       coun: 1
+    #       period: hour
+    #     # error_after:
+    #     #   count: 3
+    #     #   period: hour
+    #     # loaded_at_field: BLOCK_TIMESTAP
